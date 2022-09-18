@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/d2e28b647c.js" crossorigin="anonymous" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="head">
+      <div class="head-logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></div>
+      <div class="head-right">
+        <ul class="head-nav">
+          <li><a href="news.html">NEWS</a></li>
+          <li><a href="service.html">
+            SERVICE</a></li>
+          <li><a href="works.html">WORKS</a></li>
+          <li><a href="company.html">
+            COMPANY</a></li>
+          <li><a href="recruit.html">
+            RECRUIT
+            </a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="humb">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+    </div>
+    <div class="base-top">
+      <h2 class="sec-title base-title">CONTACT</h2>
+      <p class="sec-sub base-sub">お問い合わせ</p>
+    </div>
+    <div class="arrow"></div>
+  </header>
+  <main>
+    <div class="top-inner">
+      <div class="home">
+        <a href="index.html">HOME</a>
+        <p class="next">CONTACT</p>
+      </div>
+    </div>
+    <section id="contactpart">
+      <div class="inner-780 contpart-780">
+        <p class="cont-780-p">Webサイトの制作のご依頼やお見積りなど、<br class="br">お気軽にご相談ください。</p>
+        <div class="inner-750 contpart-750">
+          <form action="">
+            <div class="c-form-item">
+              <p for="inquiry" class="c-form-p">お問い合わせ種別<span>*必須</span></p>
+              <ul class="inq-item">
+                <li>
+                  <input type="radio" id="inq-job" name="inquiry" value="job" checked >
+                  <label for="inq-job">お仕事のご依頼・ご相談</label>
+                </li>
+                <li>
+                  <input type="radio" id="estima" name="inquiry" value="estima">
+                  <label for="estima">お見積りのご依頼</label>
+                </li>
+                <li>
+                  <input type="radio" id="adopt" name="inquiry" value="adopt">
+                  <label for="adopt">採用について</label>
+                </li>
+                <li>
+                  <input type="radio" id="other" name="inquiry" value="other">
+                  <label for="other">その他</label>
+                </li>
+              </ul>
+            </div>
+            <div class="c-form-item">
+              <label for="yourname">お名前<span>*必須</span></label>
+              <input type="text" id="yourname" name="name" required >
+            </div>
+            <div class="c-form-item">
+              <label for="yourcompany">会社名<span>*必須</span></label>
+              <input type="text" id="yourcompany" name="company" required >
+            </div>
+            <div class="c-form-item">
+              <label for="email">メールアドレス<span>*必須</span></label>
+              <input type="email" id="email" name="email" required >
+            </div>
+            <div class="c-form-item">
+              <label for="tel">電話番号<span class="cont-tell">（半角数字ハイフンなし）</span></label>
+              <input type="tel" id="tel" name="tel" required>
+            </div>
+            <div class="c-form-item">
+              <label for="comment">お問い合わせ内容</label>
+              <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <div class="cont-select">
+              <label for="choice">PON DESIGNをどちらでお知りになりましたか？</label>
+              <select name="choice" id="choice">
+                <option value="">選択してください</option>
+                <option value="Google/Yahoo検索">Google/Yahoo検索</option>
+                <option value="SNS">SNS</option>
+                <option value="ブログ">ブログ</option>
+                <option value="友人や知人">友人や知人</option>
+                <option value="その他">その他</option>
+              </select>
+            </div>
+            <div class="form-button">
+              <button type="submit" class="button more c-form-button">送信する</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <ul class="foot-inner">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="news.html">NEWS</a></li>
+      <li><a href="service.html">SERVICE</a></li>
+      <li><a href="works.html">WORKS</a></li>
+      <li><a href="company.html">COMPANY</a></li>
+      <li><a href="recruit.html">RECRUIT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <a class="foot-com">&copy;PON DESIGN</a>
+  </footer>
+</body>
+<br>
+</html>
+
+
